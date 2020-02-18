@@ -1,0 +1,13 @@
+# personal
+
+export GHUSER="infiniteprairie"
+export GH_PERSONAL_ACCESS_TOKEN="U2FsdGVkX18YzYFz2ru87mxx2yLBj5zODPWQsTNfv2DQvQ+2eqBNFOXVIlyUrrbi AbA/dMBZFn7++8l9AGKbbQ=="
+# previous (still works) : "U2FsdGVkX19KaB4R58/4UtU1x2Zs0SC/69qVS04H2QL4ZzOAYSIbJeGQjmnddgdU QhtsQekkMSdKgdcJ4GbYfw=="
+# encoded using openssl with AES256; password used is the password for GHUSER's GitHub account
+# decoding would be as follows:
+# mypass=my_secret_pass
+# DECODED=`echo $ENCODED | openssl enc -d -a -aes256 -pass pass:$my_secret_pass`
+
+#TODO: Is there a more convenient way of encrypting/decrypting the API tokens?
+
+
